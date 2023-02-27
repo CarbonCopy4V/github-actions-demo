@@ -30,7 +30,7 @@ jobs:
         
     - uses: CarbonCopy4V/signpath-test@main
       with:
-        CIUserToken: "test"
+        CIUserToken: ${{ secrets.CI_USER_TOKEN }}
         ProjectSlug: ""
         SigningPolicySlug: ""
         ArtifactConfigurationSlug: ""
