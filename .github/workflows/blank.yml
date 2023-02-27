@@ -35,3 +35,4 @@ jobs:
         SigningPolicySlug: "test-signing"
         ArtifactConfigurationSlug: "Default"
         Artifact: "artifact"
+        ArtifactName: "artifact.jar"
