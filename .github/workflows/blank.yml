@@ -31,7 +31,7 @@ jobs:
     - uses: CarbonCopy4V/signpath-test@main
       with:
         CIUserToken: ${{ secrets.CI_USER_TOKEN }}
-        ProjectSlug: ""
-        SigningPolicySlug: ""
-        ArtifactConfigurationSlug: ""
+        ProjectSlug: "Newsbubble"
+        SigningPolicySlug: "test-signing"
+        ArtifactConfigurationSlug: "Default"
         Artifact: "artifact"
