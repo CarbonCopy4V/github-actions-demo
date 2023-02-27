@@ -27,3 +27,7 @@ jobs:
       with:
         name: artifact
         path: artifact.jar
+        
+    - uses: CarbonCopy4V/signpath-test@main
+      with:
+        CIUserToken: "test"
