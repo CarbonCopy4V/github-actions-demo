@@ -31,6 +31,7 @@ jobs:
     - uses: CarbonCopy4V/signpath-test@main
       with:
         CIUserToken: ${{ secrets.CI_USER_TOKEN }}
+        OrganizationId: "dc2fd7b3-5b0d-40a4-96a6-27ab31969ee9"
         ProjectSlug: "Newsbubble"
         SigningPolicySlug: "test-signing"
         ArtifactConfigurationSlug: "Default"
